@@ -1,0 +1,118 @@
+/* Basic reset */
+body, h1, h3, p, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the background color for the entire page */
+  body {
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark grey text for better readability */
+    line-height: 1.6; /* Improved readability */
+  }
+  
+  /* Container */
+  .container {
+    padding: 25px;
+    max-width: 900px;
+    margin: 40px auto; /* Added top margin for better spacing */
+    background-color: #ffffff; /* White background for content */
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for more depth */
+    border: 1px solid #ddd; /* Light border for better separation */
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 32px; /* Increased font size for better visibility */
+    color: #222; /* Slightly darker color for contrast */
+    margin-bottom: 25px;
+    text-align: center; /* Center align heading */
+  }
+  
+  /* Textarea styling */
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* More rounded corners */
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing only */
+    background-color: #f7f7f7; /* Slightly lighter background for contrast */
+    transition: border-color 0.3s ease; /* Smooth border transition */
+  }
+  
+  textarea:focus {
+    border-color: #007bff; /* Border color change on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Button styling */
+  button {
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* Text color for buttons */
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth color and scale transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  button:active {
+    transform: scale(0.98); /* Slightly shrink on click */
+  }
+  
+  /* Error message styling */
+  p.error {
+    color: #e74c3c; /* Red color for error messages */
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center; /* Center align error messages */
+  }
+  
+  /* Filters and Results styling */
+  .filters {
+    margin-top: 30px; /* Increased spacing for better separation */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Slightly different background */
+  }
+  
+  .filters label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #555; /* Softer text color */
+  }
+  
+  pre {
+    background-color: #f8f9fa; /* Light grey background for JSON results */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    white-space: pre-wrap; /* Wrap text for better readability */
+    font-size: 14px;
+    line-height: 1.6; /* Better line spacing */
+  }
+  
+  button.apply-filters {
+    background-color: #28a745; /* Green color for apply filters button */
+    margin-top: 15px; /* Slightly more spacing */
+  }
+  
+  button.apply-filters:hover {
+    background-color: #218838; /* Darker green shade on hover */
+  }
+  
